@@ -2,9 +2,9 @@
   "$schema": "./node_modules/@angular-devkit/schematics/collection-schema.json",
   "schematics": {
     "command": {
-      "factory": "./lib/command/command.factory#main",
+      "factory": "./lib/command2/command.factory#main",
       "description": "Create a CQRS command.",
-      "schema": "./lib/command/schema.json"
+      "schema": "./lib/command2/schema.json"
     },
     "event": {
       "factory": "./lib/event/event.factory#main",
@@ -20,6 +20,11 @@
       "factory": "./lib/saga/saga.factory#main",
       "description": "Create a CQRS saga.",
       "schema": "./lib/saga/schema.json"
+    },
+    "entity": {
+      "factory": "./lib/entity/entity.factory#main",
+      "description": "Create a TypeOrm Entity.",
+      "schema": "./lib/entity/schema.json"
     }
   }
 }
