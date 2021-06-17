@@ -5,7 +5,7 @@ import {
   InsertEvent,
 } from 'typeorm';
 import { CommonService } from '../../common/services/common.service';
-import { SeriesEntity } from './<%= dasherize(name) %>.entity';
+import { <%= classify(name) %>Entity } from './<%= dasherize(name) %>.entity';
 
 @EventSubscriber()
 export class <%= classify(name) %>EntitySubscriber
