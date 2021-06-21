@@ -4,7 +4,7 @@
     "command": {
       "factory": "./lib/command/command.factory#main",
       "description": "Create a CQRS command.",
-      "schema": "./lib/command2/schema.json"
+      "schema": "./lib/command/schema.json"
     },
     "event": {
       "factory": "./lib/event/event.factory#main",
