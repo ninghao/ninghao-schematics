@@ -2,7 +2,7 @@
   "$schema": "./node_modules/@angular-devkit/schematics/collection-schema.json",
   "schematics": {
     "command": {
-      "factory": "./lib/command2/command.factory#main",
+      "factory": "./lib/command/command.factory#main",
       "description": "Create a CQRS command.",
       "schema": "./lib/command2/schema.json"
     },
